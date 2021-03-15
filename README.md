@@ -80,7 +80,7 @@ wget https://github.com/ymcoming/better-cloudflare-ip/releases/download/20210308
 
 unzip linux.zip
 
-chmod +x *
+chmod +x * -R
 
 ./configure
 
