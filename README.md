@@ -69,6 +69,8 @@ linux shell脚本+fping
 下载修改过的源码 fping-4.2.tar.gz  点击下载[Linux源码](https://proxy.freecdn.workers.dev/?url=https://github.com/badafans/better-cloudflare-ip/releases/latest/download/linux.tar.gz)
 
 具体编译使用流程如下
+
+apt install gcc
  
 mkdir linux
 
