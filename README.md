@@ -70,12 +70,15 @@ linux shell脚本+fping
 
 具体编译使用流程如下
  
- ```bash
-curl https://github.com/badafans/better-cloudflare-ip/releases/latest/download/linux.tar.gz -o linux.tar.gz
-
-tar -vxf linux.tar.gz
+mkdir linux
 
 cd linux
+
+wget https://github.com/ymcoming/better-cloudflare-ip/releases/download/20210308/linux.zip
+
+unzip linux.zip
+
+chmod +x *
 
 ./configure
 
@@ -83,8 +86,8 @@ make
 
 cd src
 
-sudo ./cf.sh
-```
+./cf.sh
+
 
 ## Android版本
 
