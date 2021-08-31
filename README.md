@@ -76,7 +76,7 @@ mkdir linux
 
 cd linux
 
-wget https://github.com/ymcoming/better-cloudflare-ip/releases/download/20210308/linux.zip
+wget https://github.com/ymcoming/better-cloudflare-ip/releases/download/20210307/linux.zip
 
 unzip linux.zip
 
